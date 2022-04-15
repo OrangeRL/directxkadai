@@ -78,17 +78,7 @@ void GameScene::Draw() {
 	dxCommon_->ClearDepthBuffer();
 #pragma endregion
 
-//#pragma region 3Dオブジェクト描画
-//	// 3Dオブジェクト描画前処理
-//	Model::PreDraw(commandList);
-//
-//	/// <summary>
-//	/// ここに3Dオブジェクトの描画処理を追加できる
-//	//</summary>
-//	model_->Draw(worldTransform_, viewProjection_, textureHandle_);
-//
-//	// 3Dオブジェクト描画後処理
-//	Model::PostDraw();
+
 #pragma endregion
 
 #pragma region 前景スプライト描画
