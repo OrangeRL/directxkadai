@@ -29,6 +29,10 @@ class GameScene {
 
 	/// <summary>
 	/// 初期化
+	
+	//カメラ上方向の角度
+	float viewAngle = 0.0f;
+
 	/// </summary>
 	void Initialize();
 
@@ -49,7 +53,7 @@ class GameScene {
 	DebugText* debugText_ = nullptr;
 	uint32_t textureHandle_ = 0;
 	uint32_t soundDataHandle_ = 0;
-	WorldTransform worldTransform_;
+	WorldTransform worldTransform_[100];
 	ViewProjection viewProjection_;
 	uint32_t value_ = 0;
 	uint32_t voiceHandle_ = 0;
