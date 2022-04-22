@@ -64,7 +64,7 @@ void GameScene::Draw() {
 	Model::PostDraw();
 
 #pragma region 背景スプライト描画
-	// 背景スプライト描画前処理
+	// 背景スプライト描画前処理.
 	Sprite::PreDraw(commandList);
 
 	/// <summary>
