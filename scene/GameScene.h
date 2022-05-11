@@ -29,10 +29,6 @@ class GameScene {
 
 	/// <summary>
 	/// 初期化
-	
-	//カメラ上方向の角度
-	float viewAngle = 0.0f;
-
 	/// </summary>
 	void Initialize();
 
@@ -58,6 +54,8 @@ class GameScene {
 	uint32_t value_ = 0;
 	uint32_t voiceHandle_ = 0;
 	Model* model_ = nullptr;
+	//カメラ上方向の角度
+	float viewAngle = 0.0f;
 	/// <summary>
 	/// ゲームシーン用
 
